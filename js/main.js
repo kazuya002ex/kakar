@@ -15,6 +15,7 @@
         nru.style.display = "none";
         kanae.style.display = "block";
 
+        // 5秒後に画面遷移する
         setTimeout(redirect, 5000);
     }
 
