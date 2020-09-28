@@ -53,7 +53,7 @@ table {
 /* top page */
 
 body {
-    overflow: hidden;
+    /* overflow: hidden; */
     background-image: url(../img/back-top.jpg);
     background-size: 500px;
     font-family: 'YuGothic','Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', 'Meiryo','ＭＳ ゴシック',sans-serif;
@@ -132,6 +132,10 @@ h1 {
     left: 36%; 
 }
 
+#countDown {
+    z-index: 100;
+}
+
 
 
 
@@ -179,4 +183,15 @@ h1 {
 
 .result-social a i:hover {
     color: rgb(96, 213, 213);
+}
+
+.top-button {
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 7%;
+}
+
+.top-button a {
+    color: #eee;
 }
