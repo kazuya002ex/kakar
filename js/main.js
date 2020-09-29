@@ -6,6 +6,10 @@
     const videoo = document.getElementById("video");
     const nru = document.getElementById("nru");
 
+    function ring() {
+    　　document.getElementById("sound").play();
+    }
+
     function redirect(){
         location.href="result.html";
     }
@@ -14,6 +18,7 @@
         videoo.style.display = "none";
         nru.style.display = "none";
         kanae.style.display = "block";
+        ring();
 
         // 5秒後に画面遷移する
         setTimeout(redirect, 5000);
