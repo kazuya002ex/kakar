@@ -7,7 +7,7 @@
     const nru = document.getElementById("nru");
 
     function ring() {
-    　　document.getElementById("sound").play();
+        document.getElementById("sound").play();
     }
 
     function redirect(){
@@ -21,7 +21,7 @@
         ring();
 
         // 5秒後に画面遷移する
-        setTimeout(redirect, 5000);
+        setTimeout(redirect, 1500);
     }
 
     function alertMsgd(){

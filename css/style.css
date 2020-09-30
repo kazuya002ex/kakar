@@ -95,6 +95,8 @@ h1 {
 
 #kanae {
     z-index: 1001;
+    width: 1760px;
+    height: 1054px;
     display: none;
 }
 
@@ -126,7 +128,9 @@ h1 {
     cursor: pointer;
     position:absolute;
     top: 27%;
-    left: 36%; 
+    left: 36%;
+    width: 405px;
+    height: 360px;
 }
 
 #countDown {
@@ -191,4 +195,25 @@ h1 {
 
 .top-button a {
     color: #eee;
+}
+
+
+@media (max-width: 479px) {
+
+    #kanae {
+        object-fit: cover;
+        z-index: 1001;
+        width: 660px;
+        height: 1054px;
+    }
+
+    .movie-move video {
+        top: 30;
+        left: 0;
+    }
+
+    .movie-move img {
+        width: 202px;
+        height: 180px;
+    }
 }
